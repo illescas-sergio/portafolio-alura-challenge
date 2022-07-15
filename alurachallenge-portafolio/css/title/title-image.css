@@ -1,0 +1,6 @@
+.title__profile {
+    background: url("../../assets/profile.png");
+    height: 368px;
+    width: 368px;
+    order: 2;
+}
