@@ -1,3 +1,6 @@
 .menu__list__item {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.78rem;
     margin: 0 1rem;
 }
