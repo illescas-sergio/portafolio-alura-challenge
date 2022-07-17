@@ -1,5 +1,9 @@
 .title__container {
     border: 1px solid black;
+    color: var(--color-de-fuente);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
     margin-right: 1rem;
     width: calc(100% - 360px - 1rem);
     
