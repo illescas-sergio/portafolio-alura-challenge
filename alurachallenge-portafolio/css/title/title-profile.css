@@ -1,3 +1,10 @@
 .title__profile {
-    display: flex;
+    border: 1px solid yellowgreen;
+    height: 360px;
+    width: 360px;
+    background: url(../../assets/profile.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    order: 2;
 }

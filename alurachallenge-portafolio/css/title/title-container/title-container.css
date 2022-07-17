@@ -1,5 +1,6 @@
 .title__container {
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
+    border: 1px solid black;
+    margin-right: 1rem;
+    width: calc(100% - 360px - 1rem);
+    
 }
