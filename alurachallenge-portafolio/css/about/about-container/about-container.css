@@ -1,0 +1,8 @@
+.about__container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about__container:last-child {
+    margin-bottom: 5rem;
+}

@@ -5,3 +5,7 @@ body {
 .container {
     margin: 0 7.5rem;
 }
+
+.division {
+    width: calc(100% - 360px - 1rem); 
+}
