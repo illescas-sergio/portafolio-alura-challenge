@@ -11,54 +11,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/4018f21b4f.js" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/menu/menu.css">
-    <link rel="stylesheet" href="./css/menu/menu-header/menu-header.css">
-    <link rel="stylesheet" href="./css/menu/menu-header/menu-title.css">
-    <link rel="stylesheet" href="./css/menu/menu-header/menu-image.css">
-    <link rel="stylesheet" href="./css/menu/menu-list/menu-list.css">
-    <link rel="stylesheet" href="./css/menu/menu-list/menu-list-item.css">
+    <link rel="stylesheet" href="./css/menu/menu-header.css">
+    <link rel="stylesheet" href="./css/menu/menu-list.css">
+
     <link rel="stylesheet" href="./css/title/title.css">
-    <link rel="stylesheet" href="./css/title/title-image.css">
-    <link rel="stylesheet" href="./css/title/title-div.css">
-    <link rel="stylesheet" href="./css/title/title-profile.css">
-    <link rel="stylesheet" href="./css/title/title-container/title-container.css">
-    <link rel="stylesheet" href="./css/title/title-container/title-bio.css">
-    <link rel="stylesheet" href="./css/title/title-container/title-subsection.css">
-    <link rel="stylesheet" href="./css/title/title-container/title-network/title-network.css">
-    <link rel="stylesheet" href="./css/title/title-container/title-network/title-network-item.css">
+    <link rel="stylesheet" href="./css/title/title-container.css">
+    <link rel="stylesheet" href="./css/title/title-network.css">
+    
     <link rel="stylesheet" href="./css/about/about.css">
-    <link rel="stylesheet" href="./css/about/about-container/about-container.css">
-    <link rel="stylesheet" href="./css/about/about-container/about-title.css">
-    <link rel="stylesheet" href="./css/about/about-container/about-paragraph.css">
+    <link rel="stylesheet" href="./css/about/about-container.css">
+
     <link rel="stylesheet" href="./css/skills/skills.css">
     <link rel="stylesheet" href="./css/skills/skills-title.css">
-    <link rel="stylesheet" href="./css/skills/skills-line/skills-line.css">
-    <link rel="stylesheet" href="./css/skills/skills-line/skills-box/skill-box.css">
-    <link rel="stylesheet" href="./css/skills/skills-line/skills-box/skills-box-list.css">
-    <link rel="stylesheet" href="./css/skills/skills-line/skills-box/skills-img.css">
-    <link rel="stylesheet" href="./css/skills/skills-line/skills-box/skills-name.css">
+    <link rel="stylesheet" href="./css/skills/skills-line.css">
+    <link rel="stylesheet" href="./css/skills/skill-box.css">
+    
     <link rel="stylesheet" href="./css/hobbies/hobbies.css">
     <link rel="stylesheet" href="./css/hobbies/hobbies-title.css">
-    <link rel="stylesheet" href="./css/hobbies/hobbies-line/hobbies-line.css">
-    <link rel="stylesheet" href="./css/hobbies/hobbies-line/hobbies-box/hobbies-box.css">
-    <link rel="stylesheet" href="./css/hobbies/hobbies-line/hobbies-box/hobbies-img.css">
-    <link rel="stylesheet" href="./css/hobbies/hobbies-line/hobbies-box/hobbies-name.css">
+    <link rel="stylesheet" href="./css/hobbies/hobbies-line.css">
+    <link rel="stylesheet" href="./css/hobbies/hobbies-box.css">
+    
     <link rel="stylesheet" href="./css/formacion/academic.css">
-    <link rel="stylesheet" href="./css/formacion/academic-title.css">
-    <link rel="stylesheet" href="./css/formacion/academic-courses/academic-courses.css">
-    <link rel="stylesheet" href="./css/formacion/academic-courses/academic-courses-box/academic-courses-box.css">
-    <link rel="stylesheet" href="./css/formacion/academic-courses/academic-courses-box/academic-courses-list.css">
-    <link rel="stylesheet" href="./css/formacion/academic-courses/academic-courses-box/academic-courses-item-img.css">
-    <link rel="stylesheet" href="./css/formacion/academic-courses/academic-courses-box/academic-courses-item-title.css">
-    <link rel="stylesheet" href="./css/formacion/academic-courses/academic-courses-box/academic-courses-item-subtitle.css">
+    <link rel="stylesheet" href="./css/formacion/academic-courses.css">
+    <link rel="stylesheet" href="./css/formacion/academic-courses-box/academic-courses-box.css">
+    
     <link rel="stylesheet" href="./css/experience/experience.css">
-    <link rel="stylesheet" href="./css/experience/experience-section-title.css">
-    <link rel="stylesheet" href="./css/experience/experience-box/experience-box.css">
-    <link rel="stylesheet" href="./css/experience/experience-box/experience-img.css">
-    <link rel="stylesheet" href="./css/experience/experience-box/experience-info/experience-info.css">
-    <link rel="stylesheet" href="./css/experience/experience-box/experience-info/experience-title.css">
+    <link rel="stylesheet" href="./css/experience/experience-box.css">
+    <link rel="stylesheet" href="./css/experience/experience-info/experience-info.css">
+    <link rel="stylesheet" href="./css/experience/experience-description/experience-description.css">
+    <link rel="stylesheet" href="./css/experience/experience-description/experience-text.css">
 
     <title> Mi Portafolio</title>
 </head>
@@ -255,28 +240,27 @@
             <h2 class="experience__section__title" >Experiencia Profesional</h2>
             <div class="experience__box">
                 <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-                <!-- <img class="experience__img" src="assets\decod_print.png"> -->
-                <div class="experience__img division"></div>
+                <img class="experience__img division" src="assets\decod_print.png">
                 <div class="experience__info">
                     <h2 class="experience__title">Encriptador de texto</h2>
                     <h3 class="experience__text">Challenge Alura Codificador </h3>
                         <div class="experience__description">
                             <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                                <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                                <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experience__botao--repo">Repositorio</button></a></span>
                                 <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
                         </div>
                 </div>
             </div>  
 
-            <div class="experiencie__box">
+            <div class="experience__box">
                 <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-                <img class="experience__img" src="assets\forca_print.png">
+                <img class="experience__img division" src="assets\forca_print.png">
                 <div class="experience__info">
                     <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
                     <h3 class="experience__text">Challenge Oracle </h3>
                         <div class="experience__description">
                             <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                                <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                                <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button class="experience__botao--repo">Repositorio</button></a></span>
                                 <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
                         </div>
                 </div>
@@ -284,26 +268,26 @@
 
             <div class="experience__box">
                 <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-                <img class="experience__img" src="assets\secretcode_print.png">
-                <div class="experience__info-container">
+                <img class="experience__img division" src="assets\secretcode_print.png">
+                <div class="experience__info">
                     <h2 class="experience__title">Encriptador de texto</h2>
                     <h3 class="experience__text">Challenge Oracle </h3>
                         <div class="experience__description">
                                 <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                                <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                                <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experience__botao--repo">Repositorio</button></a></span>
                                 <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
                         </div>
                 </div>
             </div>  
 
             <div class="experience__box">
-                <img class="experience__img" src="assets\forca2_print.png">
-                <div class="experience__info-container">
+                <img class="experience__img division" src="assets\forca2_print.png">
+                <div class="experience__info">
                     <h2 class="experience__title">Juego creado con HTML, CSS y JavaScript</h2>
                     <h3 class="experience__text">Challenge Oracle </h3>
                         <div class="experience__description">
                                 <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                                <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                                <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button class="experience__botao--repo">Repositorio</button></a></span>
                                 <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
                         </div>
             </div>

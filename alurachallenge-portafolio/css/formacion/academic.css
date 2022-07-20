@@ -5,3 +5,10 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
+
+.academic__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+}

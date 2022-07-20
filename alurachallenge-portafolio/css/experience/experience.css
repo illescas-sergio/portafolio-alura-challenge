@@ -1,4 +1,10 @@
 .experience {
-    border: 1px solid red;
     color: var(--color-de-fuente);
+}
+
+.experience__section__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
 }

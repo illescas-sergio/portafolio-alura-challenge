@@ -3,3 +3,19 @@
     flex-direction: row;
     width: 100%;    
 }
+
+.title__div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.title__profile {
+    background: url(../../assets/profile.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 360px;
+    width: 360px;
+    order: 2;
+}

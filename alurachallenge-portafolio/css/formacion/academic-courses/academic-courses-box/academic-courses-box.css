@@ -1,9 +1,0 @@
-.academic__courses__box {
-    align-items: center;
-    background: var(--color-fondo-about);
-    display: flex;
-    flex-direction: column;
-    height: 22rem;
-    padding: 0px;
-    width: 24rem;
-}

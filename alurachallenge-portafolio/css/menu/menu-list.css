@@ -1,3 +1,9 @@
+.menu__list {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
 .menu__list__item {
     font-size: 16px;
     font-weight: 500;

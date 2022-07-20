@@ -8,3 +8,16 @@
     padding: 1rem;
     width: 11rem;
 }
+
+.hobbies__img {
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.hobbies__i {
+    color: #2A7AE4;
+}
+
+.hobbies__name {
+    margin-top: 0.5rem;
+}

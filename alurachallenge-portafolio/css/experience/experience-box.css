@@ -1,0 +1,18 @@
+.experience__box {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+.experience__box:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.experience__img {
+    background-image: url("../../assets/decod_print.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    min-width: calc(100% - 360px - 1rem);
+}
