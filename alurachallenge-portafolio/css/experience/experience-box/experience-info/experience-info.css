@@ -1,0 +1,6 @@
+.experience__info {
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
