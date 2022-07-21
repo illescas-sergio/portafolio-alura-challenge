@@ -9,10 +9,28 @@
 }
 
 .experience__img {
-    background-image: url("../../assets/decod_print.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
+    height: 406px;
     min-width: calc(100% - 360px - 1rem);
+}
+
+#project-01 {
+    background-image: url("../../assets/decod_print.png");
+}
+
+#project-02 {
+    background-image: url("../../assets/forca_print.png");
+}
+
+#project-03 {
+    background-image: url("../../assets/secretcode_print.png");
+}
+
+#project-04 {
+    background-image: url("../../assets/forca2_print.png");
 }
