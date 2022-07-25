@@ -15,8 +15,10 @@
     background-color: lightgray;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 406px;
     min-width: calc(100% - 360px - 1rem);
+    width: calc(100% - 22.5rem - 1rem);
 }
 
 #project-01 {

@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: left;
     margin-right: 1rem;
+    width: calc(100% - 22.5rem - 1rem);
 }
 
 .title__bio {

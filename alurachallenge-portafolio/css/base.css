@@ -1,11 +1,12 @@
 body {
     width: 100vw;
+    border: 1px solid red;
 }
 
 .container {
-    margin: 0 7.5rem;
+    margin: 0 9.5rem;
 }
 
-.division {
-    width: calc(100% - 360px - 1rem); 
-}
+/* .division {
+    width: calc(100% - 22.5rem - 1rem); 
+} */
